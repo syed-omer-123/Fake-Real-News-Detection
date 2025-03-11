@@ -25,8 +25,8 @@ Dataset size and quality may impact accuracy
 
 
 🔥 Future Improvements
-Train with Deep Learning models (LSTMs, Transformers)
-Apply Hyperparameter tuning
+Train with Deep Learning models (LSTMs, Transformers),
+Apply Hyperparameter tuning,
 Improve data preprocessing
 
 
