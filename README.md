@@ -11,27 +11,11 @@ This project aims to classify news articles as **fake** or **real** using Machin
 - Compares multiple ML models to find the best one  
 - Outputs whether a news article is **real** or **fake**  
 
-## 🔧 How to Run the Model
-1. Download `Fake_Real_News_model.ipynb`
-2. Open in **Google Colab** or **Jupyter Notebook**
-3. Install required libraries:
-   ```python
-   pip install pandas numpy sklearn
+
 
 📉 Model Performance
 Final Model: RandomForestClassifier
 Accuracy: 71% (Needs Improvement)
-
-
-📊 Classification Report (Test Set)
-              precision    recall  f1-score   support
-
-           0       0.74      0.59      0.65      4252
-           1       0.69      0.81      0.74      4728
-
-    accuracy                           0.71      8980
-   macro avg       0.71      0.70      0.70      8980
-weighted avg       0.71      0.71      0.70      8980
 
 
 ⚠️ Limitations
