@@ -13,8 +13,8 @@ This project aims to classify news articles as **fake** or **real** using Machin
 
 
 
-📉 Model Performance
-Final Model: RandomForestClassifier
+📉 Model Performance:
+Final Model: RandomForestClassifier,
 Accuracy: 71% (Needs Improvement)
 
 
@@ -36,19 +36,8 @@ Fake_Real_News_model.ipynb	Jupyter Notebook with model training and evaluation
 Fake_Real_News_model.pkl	Saved trained model for reuse
 
 
-📖 How to Use the .pkl Model?
-To load and use the trained model:
-
-import pickle
-# Load the model
-with open("Fake_Real_News_model.pkl", "rb") as file:
-    model = pickle.load(file)
-
-print("Model loaded successfully:", type(model))
 
 
-👨‍💻 Author
-Syed Omer Hussaini
 
 
 
